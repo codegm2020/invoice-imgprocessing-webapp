@@ -21,12 +21,7 @@ Cloud AI (LLM)	Google Cloud Vertex AI (Gemini Pro)	To understand the context of 
 Frontend	HTML, Bootstrap	To provide a simple, user-friendly interface for uploading images and viewing results.
 System Architecture
 The application follows a simple yet powerful three-tier architecture. The Flask backend acts as an orchestrator between the user interface and the powerful Google Cloud AI services.
+<img width="725" height="326" alt="Screenshot 2025-08-30 at 11 45 11 AM" src="https://github.com/user-attachments/assets/cad2ef10-d950-4ec2-9124-ac4eacafef0b" />
 
-graph TD
-    A[User's Browser] -- 1. Uploads Image --> B(Flask Backend);
-    B -- 2. Sends Image to Vision API --> C[Google Cloud Vision API];
-    C -- 3. Returns Raw OCR Text --> B;
-    B -- 4. Sends OCR Text in a Prompt --> D[Google Vertex AI - Gemini Pro];
-    D -- 5. Returns Structured JSON Data --> B;
-    B -- 6. Renders Results Template --> A;
-    A -- 7. Displays Extracted Data --> E[User];
+<img width="731" height="309" alt="Screenshot 2025-08-30 at 11 45 20 AM" src="https://github.com/user-attachments/assets/0f7293e6-c177-4889-8c01-18a7489e5a22" />
+
