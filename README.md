@@ -4,6 +4,7 @@ High-Level Architecture
 Frontend (HTML/CSS): A simple web page with a file upload form.
 
 Backend (Flask): A Python server that receives the image, orchestrates the AI calls, and displays the results.
+
 AI Services (Google Cloud):
 Cloud Vision API: Performs the initial, powerful OCR to get all raw text from the invoice.
 Vertex AI (Gemini Pro): Takes the raw text and uses generative AI to understand the context and extract specific fields into a structured format (JSON).
