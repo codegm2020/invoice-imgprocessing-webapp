@@ -13,13 +13,16 @@ The Problem Solved:
 
 In many businesses, the accounts payable process involves manually reading data from invoices (e.g., PDFs, scanned images) and entering it into a financial system. This process is:
 
-Time-Consuming: Manual entry is slow and takes valuable employee time away from more critical tasks.
-Error-Prone: Human error during data entry can lead to incorrect payments and complex accounting reconciliations.
-Inefficient: It creates a significant bottleneck, delaying payments and financial reporting.
+-Time-Consuming: Manual entry is slow and takes valuable employee time away from more critical tasks.
+
+-Error-Prone: Human error during data entry can lead to incorrect payments and complex accounting reconciliations.
+
+-Inefficient: It creates a significant bottleneck, delaying payments and financial reporting.
+
 This application provides a streamlined, AI-driven solution that automates the extraction process, increasing speed, accuracy, and overall efficiency.
 
 Tech Stack
-Component	Technology	Purpose
+Component	Technology Purpose
 Backend	Python, Flask	To create the web server, handle file uploads, and define REST API logic.
 Cloud AI (OCR)	Google Cloud Vision API	To perform powerful Optical Character Recognition and extract all raw text from the invoice image.
 Cloud AI (LLM)	Google Cloud Vertex AI (Gemini Pro)	To understand the context of the raw text and structure it into a clean JSON format (e.g., identifying "Vendor Name", "Total Amount").
