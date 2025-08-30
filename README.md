@@ -1,5 +1,6 @@
 # invoice-imgprocessing-webapp
 High-Level Architecture
+
 Frontend (HTML/CSS): A simple web page with a file upload form.
 Backend (Flask): A Python server that receives the image, orchestrates the AI calls, and displays the results.
 AI Services (Google Cloud):
