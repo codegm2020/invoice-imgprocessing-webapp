@@ -9,7 +9,8 @@ AI Services (Google Cloud):
 Cloud Vision API: Performs the initial, powerful OCR to get all raw text from the invoice.
 Vertex AI (Gemini Pro): Takes the raw text and uses generative AI to understand the context and extract specific fields into a structured format (JSON).
 
-The Problem Solved
+The Problem Solved:
+
 In many businesses, the accounts payable process involves manually reading data from invoices (e.g., PDFs, scanned images) and entering it into a financial system. This process is:
 
 Time-Consuming: Manual entry is slow and takes valuable employee time away from more critical tasks.
