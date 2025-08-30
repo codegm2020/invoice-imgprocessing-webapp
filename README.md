@@ -22,7 +22,7 @@ In many businesses, the accounts payable process involves manually reading data 
 This application provides a streamlined, AI-driven solution that automates the extraction process, increasing speed, accuracy, and overall efficiency.
 
 
-<img width="725" height="326" alt="Screenshot 2025-08-30 at 11 45 11 AM" src="https://github.com/user-attachments/assets/cad2ef10-d950-4ec2-9124-ac4eacafef0b" />
+<img width="725" height="325" alt="Screenshot 2025-08-30 at 11 45 11 AM" src="https://github.com/user-attachments/assets/cad2ef10-d950-4ec2-9124-ac4eacafef0b" />
 
-<img width="731" height="309" alt="Screenshot 2025-08-30 at 11 45 20 AM" src="https://github.com/user-attachments/assets/0f7293e6-c177-4889-8c01-18a7489e5a22" />
+<img width="725" height="325" alt="Screenshot 2025-08-30 at 11 45 20 AM" src="https://github.com/user-attachments/assets/0f7293e6-c177-4889-8c01-18a7489e5a22" />
 
