@@ -1,4 +1,4 @@
-# invoice-imgprocessing-webapp
+# AI-Powered Invoice Data Extractor
 High-Level Architecture
 
 Frontend (HTML/CSS): A simple web page with a file upload form.
